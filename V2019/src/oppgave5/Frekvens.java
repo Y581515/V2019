@@ -33,13 +33,18 @@ public class Frekvens {
 		String ord= tast.nextLine();
 		tast.close();
 		
+		//fo.clear();
 		Integer f= fo.get(ord);
 		if(f != null) {
-			System.out.println(ord+"har frekvens "+f);
+			System.out.println(ord+" har frekvens "+f);
 		}
 		else {
 			System.out.println(ord + " finst ikkje i oversikten");
 		}
+		
+		
+		System.out.println(fo.containsKey("d e t"));
+		System.out.println(fo);
 	}
 	
 	

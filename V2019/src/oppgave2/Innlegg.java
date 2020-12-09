@@ -25,7 +25,7 @@ public class Innlegg {
 		}
 		
 		public void SkriveUt() {
-			System.out.print(bruker+ "\n"+dato+"\nAntall likes: "+likes+"\n");
+			System.out.print(bruker+ " "+dato+" Antall likes: "+likes+" ");
 		}
 		
 

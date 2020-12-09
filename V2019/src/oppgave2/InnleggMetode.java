@@ -17,7 +17,7 @@ public class InnleggMetode {
 		
 		switch (valg) {
 		case 1: {
-			System.out.print("Url? ");
+			System.out.println("Url? ");
 			String url = tast.nextLine();
 			innlegg = new Bilde(bruker, dato, url);
 			break;
